@@ -1,0 +1,26 @@
+<html>
+<body>
+<FORM name="Formulaire-Card" Method="POST" Action="/CardServlet">
+<p>Remplissez tous les champ pour créer votre carte</p>
+<table>
+<tr>
+<td>Libellé :</td><td><INPUT type="text" size="20" name="libelle"><BR></td>
+</tr>
+<tr>
+<td>Url :</td><td><INPUT type="text" size="20" name="url"><BR></td>
+</tr>
+<tr>
+<td>Description :</td><td><INPUT type="text" size="20" name="note"><BR></td>
+</tr>
+<tr>
+<td>Tag :</td><td><INPUT type="text" size="20" name="tag"><BR></td>
+</tr>
+<tr><td><INPUT type=submit value=Send></td></tr>
+</table>
+</FORM>
+<FORM name="showCard" Method="GET" Action="/CardServlet">
+<p>Sinon tu peut afficher les cartes deja presente</p>
+<INPUT type=submit value=Afficher></td>
+</FORM>
+</body>
+</html>
