@@ -1,0 +1,20 @@
+import javax.annotation.processing.Generated;
+
+
+public class Store implements IStore{
+
+	
+	
+	//Verifié le stock
+	public void verifierStock() {
+		
+	}
+	//fait le tranfert bancaire
+	public void tranfertArgent() {
+		
+	}
+	//met a jour le stock
+	public void miseAJourStock() {
+		
+	}
+}

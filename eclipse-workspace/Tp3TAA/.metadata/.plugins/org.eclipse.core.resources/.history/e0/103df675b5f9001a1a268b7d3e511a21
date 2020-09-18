@@ -1,0 +1,30 @@
+
+public class Client {
+
+private int quantity;
+private String adresse;
+private Long numCB;
+
+
+
+
+
+public int getQuantity() {
+	return quantity;
+}
+public void setQuantity(int quantity) {
+	this.quantity = quantity;
+}
+public String getAdresse() {
+	return adresse;
+}
+public void setAdresse(String adresse) {
+	this.adresse = adresse;
+}
+public Long getNumCB() {
+	return numCB;
+}
+public void setNumCB(Long numCB) {
+	this.numCB = numCB;
+}
+}

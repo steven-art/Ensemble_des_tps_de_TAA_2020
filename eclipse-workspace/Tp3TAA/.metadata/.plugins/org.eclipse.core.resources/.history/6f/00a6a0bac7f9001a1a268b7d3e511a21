@@ -1,0 +1,7 @@
+package sample.aop.store;
+
+public interface IJustHaveALook {
+
+	String getQuantity(String string);
+
+}

@@ -1,0 +1,7 @@
+
+public class Client {
+
+private int quantity;
+private String adresse;
+private Long numCB;
+}

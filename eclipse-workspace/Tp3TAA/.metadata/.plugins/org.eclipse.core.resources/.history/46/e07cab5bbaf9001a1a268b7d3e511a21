@@ -1,0 +1,30 @@
+package store;
+import javax.annotation.processing.Generated;
+
+import bank.IBank;
+import client.IFastLane;
+import provider.IProvider;
+
+
+public class Store implements IFastLane, ILane, IJustHaveALook{
+
+	IBank bank;
+	IProvider provider;
+	
+	//Verifié le stock
+	public void verifierStock() {
+		
+	}
+	//fait le tranfert bancaire
+	public void tranfertArgent() {
+		
+	}
+	//met a jour le stock
+	public void miseAJourStock() {
+		
+	}
+	//augmenter le stock
+	public void reaprovisionnement() {
+		
+	}
+}

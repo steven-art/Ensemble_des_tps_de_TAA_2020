@@ -1,0 +1,10 @@
+package sample.aop.bank;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Bank {
+	
+	
+
+}

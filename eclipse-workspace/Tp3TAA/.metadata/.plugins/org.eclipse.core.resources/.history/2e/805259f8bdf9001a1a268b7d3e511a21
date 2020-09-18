@@ -1,0 +1,6 @@
+
+public class Article {
+	private int refArticle;
+	private int nameArticle;
+
+}

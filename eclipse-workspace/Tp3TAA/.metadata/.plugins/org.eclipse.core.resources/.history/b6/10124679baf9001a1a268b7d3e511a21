@@ -1,0 +1,56 @@
+package client;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+import store.IJustHaveALook;
+import store.ILane;
+import store.IRun;
+
+@Component
+public class Client implements IRun{
+
+	
+	private int quantity;
+	private String adresse;
+	private long numCB;
+	
+	@Autowired
+	IFastLane ifast;
+	@Autowired
+	ILane ilane;
+	@Autowired
+	IJustHaveALook haveALook;
+
+
+
+public void choseArticles() {
+	
+}
+public void TermineCommande(String Adresse , long numCB) {
+	
+}
+public int getQuantity() {
+	return quantity;
+}
+public void setQuantity(int quantity) {
+	this.quantity = quantity;
+}
+public String getAdresse() {
+	return adresse;
+}
+public void setAdresse(String adresse) {
+	this.adresse = adresse;
+}
+public Long getNumCB() {
+	return numCB;
+}
+public void setNumCB(Long numCB) {
+	this.numCB = numCB;
+}
+@Override
+public void run() {
+	// TODO Auto-generated method stub
+	
+}
+}
