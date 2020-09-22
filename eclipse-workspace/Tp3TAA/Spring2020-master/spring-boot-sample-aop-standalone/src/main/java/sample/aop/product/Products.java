@@ -7,10 +7,21 @@ public class Products {
 
 	private int Quantity;
 	private String name;
+	private double price;
 	
-	public void Product(String name, int Quantity) {
+
+	public Products(String name, int Quantity, double price) {
 		this.name = name;
 		this.Quantity = Quantity;
+		this.price = price;
+	}
+
+	public double getPrice() {
+		return price;
+	}
+
+	public void setPrice(double price) {
+		this.price = price;
 	}
 
 	public int getQuantity() {

@@ -18,7 +18,7 @@ public class Bank implements IBank{
 	public void transfert(int price) {
 		// TODO Auto-generated method stub
 
-
+		System.out.println("tranfert de :" +price);
 
 
 	}

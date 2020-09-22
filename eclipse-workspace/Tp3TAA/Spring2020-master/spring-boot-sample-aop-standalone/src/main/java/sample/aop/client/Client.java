@@ -6,6 +6,7 @@ import org.springframework.stereotype.Component;
 import sample.aop.store.IFastLane;
 import sample.aop.store.IJustHaveALook;
 import sample.aop.store.ILane;
+import sample.aop.store.Store;
 
 @Component
 public class Client implements IRun{
@@ -15,6 +16,7 @@ public class Client implements IRun{
 //	private String adresse;
 	private long numCB;
 	private Compte compte;
+	private Store store;
 	@Autowired
 	IFastLane ifast;
 	@Autowired
@@ -62,8 +64,16 @@ public void TermineCommande(String Adresse , long numCB) {
 public void run() {
 	
 	// TODO Auto-generated method stub
-	haveALook.getQuantity(15);
+	
 	haveALook.getCompte(compte.getArgentCompte());
-	ilane.reaprovisionnement(0);
+	haveALook.getPrice(1);
+	haveALook.getQuantity(15);
+	haveALook.isAvailable(1);
+	//ifast.oneShotOrder(store.getProduct());
+	//ilane.addItemToCart(store.getProduct());
+	//ilane.pay(45);
+	//ifast.getTransfert();
+	ilane.reaprovisionnement(15);
+	
 }
 }

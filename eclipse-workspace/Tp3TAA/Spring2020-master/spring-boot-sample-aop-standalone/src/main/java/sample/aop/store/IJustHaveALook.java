@@ -1,10 +1,18 @@
 package sample.aop.store;
 
+import sample.aop.product.Products;
+
 public interface IJustHaveALook {
 
 	int getQuantity(int quantity);
 
-	void getCompte(int argentCompte);
+	int getCompte(int argentCompte);
+
+	double getPrice(int p);
+
+	boolean isAvailable(int index);
+
+	
 	
 
 }
