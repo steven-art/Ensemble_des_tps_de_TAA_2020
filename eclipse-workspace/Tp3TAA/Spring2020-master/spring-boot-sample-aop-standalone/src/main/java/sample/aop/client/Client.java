@@ -49,11 +49,11 @@ public void run() {
 	
 	// TODO Auto-generated method stub
 	
-	haveALook.getCompte(compte.getArgentCompte());
+    haveALook.getCompte(compte.getArgentCompte());
 	haveALook.getPrice(1);
 	haveALook.getQuantity(15);
 	haveALook.isAvailable(1);
-//	ifast.oneShotOrder(store.getProduct("banane"), 3);
+    ifast.oneShotOrder(store.getProduct("banane"), 3);
 //	ilane.addItemToCart(store.getProduct("banane"));
 //	ilane.pay(45);
 	ifast.getTransfert();

@@ -1,0 +1,5 @@
+package sample.data.jpa.service;
+
+public interface KanbanDao {
+
+}
