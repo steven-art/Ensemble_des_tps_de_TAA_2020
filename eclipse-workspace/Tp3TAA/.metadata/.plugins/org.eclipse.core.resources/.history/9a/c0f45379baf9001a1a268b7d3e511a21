@@ -1,7 +1,0 @@
-package store;
-
-public interface IRun {
-
-	
-	void run();
-}

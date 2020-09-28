@@ -1,7 +1,0 @@
-package sample.aop.store;
-
-public interface IRun {
-
-	
-	void run();
-}

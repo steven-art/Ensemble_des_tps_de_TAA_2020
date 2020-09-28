@@ -1,0 +1,15 @@
+package sample.aop.store;
+
+import sample.aop.product.Products;
+
+public abstract class AFactory {
+private static Products productFactory;
+
+public static Products getProductFactory() {
+	return productFactory;
+}
+
+public static void setProductFactory(Products productFactory) {
+	AFactory.productFactory = productFactory;
+}
+}

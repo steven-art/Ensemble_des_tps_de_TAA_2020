@@ -1,10 +1,13 @@
 package sample.aop.provider;
 
-import sample.aop.product.Products;
+
 
 public interface IProvider {
 	
-	int order(Products p);
-	double getPrice(int p);
+//	int order(Products p);
+//	double getPrice(int p);
+	double getPrice(Long articleId);
+
+	void order(Long storeId, Long articleId, int quantity);
 	
 }

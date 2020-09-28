@@ -16,10 +16,9 @@
 
 package sample.aop;
 
-import sample.aop.client.Client;
-import sample.aop.client.IRun;
 import sample.aop.service.HelloWorldService;
-import sample.aop.store.ILane;
+
+import sample.aop.client.IRun;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
@@ -31,16 +30,16 @@ public class SampleAopApplication implements CommandLineRunner {
 
 	// Simple example shows how an application can spy on itself with AOP
 
-	@Autowired
+
+	@Autowired(required = true)
 	private IRun irun;
-	
+
 	public void run(String... args) {
 		this.irun.run();
 	}
 
 	public static void main(String[] args) throws Exception {
 		SpringApplication.run(SampleAopApplication.class, args);
-		
 	}
-
+	
 }

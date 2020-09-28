@@ -9,27 +9,29 @@ import org.springframework.stereotype.Component;
 
 import sample.aop.bank.IBank;
 import sample.aop.client.Client;
-import sample.aop.product.Products;
+
 import sample.aop.provider.IProvider;
 
 @Component
-public class Store implements IFastLane, ILane, IJustHaveALook{
-
+public class Store  implements IFastLane, ILane, IJustHaveALook{
+	@Autowired
 	IBank bank;
 	
-	Products banane = new Products("banane", 10, 1.5);
-	List<Products> ListProduct = new ArrayList<>();
-	@Autowired
+	
+	
+	List<String> ListProduct = new ArrayList<>();
+	@Autowired(required=true)
 	ILane ilane;
 
 	public void init() {
-		ListProduct.add(banane);
+		ListProduct.add("banane");
 	}
 	//Verifié le stock
 	public void verifierStock() {
 
 
 	}
+	
 	//fait le tranfert bancaire
 	public void tranfertArgent(int price) {
 		bank.transfert(price);
@@ -47,11 +49,20 @@ public class Store implements IFastLane, ILane, IJustHaveALook{
 				System.out.println("le stock à été réaprovisionné");
 			}
 	}
-	public Products getProduct() {
-		return ListProduct.get(1) ;
+	public String getProduct(String name) {
+		String res = "";
+		for (String  string : ListProduct) {
+		        if (string == name) {
+		           res = "le produit est présent";
+		        	return res;
+		        }
+		    }
+		 
+		 return res;
+		
 	}
-	public void setProduct(List<Products> product) {
-		this.ListProduct = product;
+	public void setProduct(List<String> string) {
+		this.ListProduct = string;
 	}
 	@Override
 	public int getQuantity(int quantity) {
@@ -75,10 +86,11 @@ public class Store implements IFastLane, ILane, IJustHaveALook{
 		// TODO Auto-generated method stub
 		System.out.println("transfert d'argent effectué");
 	}
-
+//ListProduct.get(index).getQuantity()>0 && 
 	@Override
 	public boolean isAvailable(int index) {
-		if (ListProduct.get(index).getQuantity()>0) {
+		
+		if (!ListProduct.isEmpty()) {
 			System.out.println("le produit est disponible");
 			return true;
 		
@@ -87,30 +99,39 @@ public class Store implements IFastLane, ILane, IJustHaveALook{
 			System.out.println("le produit n'est pas disponible");
 			return false;
 		}
-		// TODO Auto-generated method stub
+		
 		
 	}
 	@Override
-	public void oneShotOrder(Products product) {
+	public void oneShotOrder(String string, int quantity) {
 		// TODO Auto-generated method stub
-		
+		System.out.println("Le produit "+ string +"est commandé avec une quantité de " + quantity);
 	}
 	@Override
-	public void addItemToCart(Products product) {
+	public void addItemToCart(String string) {
 		// TODO Auto-generated method stub
-		
+		System.out.println("le produit "+string+"a été ajouté");
 	}
 	@Override
 	public void pay(int i) {
 		// TODO Auto-generated method stub
 		System.out.println("le client paye : "+i);
 	}
+//	@Override
+//	public double getPrice(int p) {
+//		if (ListProduct.isEmpty()) {
+//			double zero= 0.0;
+//			return zero;
+//		}
+//		System.out.println("le prix est de :"+ ListProduct.get(p).getPrice());
+//		return ListProduct.get(p).getPrice();
+//		
+//		
+//	}
 	@Override
 	public double getPrice(int p) {
-		System.out.println("le prix est de :"+ ListProduct.get(p).getPrice());
-		return ListProduct.get(p).getPrice();
 		// TODO Auto-generated method stub
-		
+		return 0;
 	}
 	
 	

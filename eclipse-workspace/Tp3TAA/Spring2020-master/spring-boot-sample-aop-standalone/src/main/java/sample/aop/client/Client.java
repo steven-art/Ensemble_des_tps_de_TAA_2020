@@ -17,6 +17,7 @@ public class Client implements IRun{
 	private long numCB;
 	private Compte compte;
 	private Store store;
+	
 	@Autowired
 	IFastLane ifast;
 	@Autowired
@@ -42,24 +43,7 @@ public void choseArticles() {
 public void TermineCommande(String Adresse , long numCB) {
 	
 }
-//public int getQuantity() {
-//	return quantity;
-//}
-//public void setQuantity(int quantity) {
-//	this.quantity = quantity;
-//}
-//public String getAdresse() {
-//	return adresse;
-//}
-//public void setAdresse(String adresse) {
-//	this.adresse = adresse;
-//}
-//public Long getNumCB() {
-//	return numCB;
-//}
-//public void setNumCB(Long numCB) {
-//	this.numCB = numCB;
-//}
+
 @Override
 public void run() {
 	
@@ -69,10 +53,10 @@ public void run() {
 	haveALook.getPrice(1);
 	haveALook.getQuantity(15);
 	haveALook.isAvailable(1);
-	//ifast.oneShotOrder(store.getProduct());
-	//ilane.addItemToCart(store.getProduct());
-	//ilane.pay(45);
-	//ifast.getTransfert();
+//	ifast.oneShotOrder(store.getProduct("banane"), 3);
+//	ilane.addItemToCart(store.getProduct("banane"));
+//	ilane.pay(45);
+	ifast.getTransfert();
 	ilane.reaprovisionnement(15);
 	
 }

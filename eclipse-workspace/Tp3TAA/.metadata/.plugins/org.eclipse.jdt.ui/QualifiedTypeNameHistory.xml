@@ -16,4 +16,12 @@
     <fullyQualifiedTypeName name="sample.aop.store.ILane"/>
     <fullyQualifiedTypeName name="sample.aop.store.Store"/>
     <fullyQualifiedTypeName name="sample.aop.product.Products"/>
+    <fullyQualifiedTypeName name="sample.simple.product.IProducts"/>
+    <fullyQualifiedTypeName name="org.aspectj.lang.annotation.Aspect"/>
+    <fullyQualifiedTypeName name="org.aspectj.lang.annotation.Before"/>
+    <fullyQualifiedTypeName name="org.aspectj.lang.JoinPoint"/>
+    <fullyQualifiedTypeName name="org.aspectj.lang.annotation.After"/>
+    <fullyQualifiedTypeName name="org.aspectj.lang.annotation.Around"/>
+    <fullyQualifiedTypeName name="org.aspectj.lang.ProceedingJoinPoint"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>

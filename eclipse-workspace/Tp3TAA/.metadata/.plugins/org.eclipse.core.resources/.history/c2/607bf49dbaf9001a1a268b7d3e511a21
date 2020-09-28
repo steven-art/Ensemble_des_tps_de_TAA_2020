@@ -1,5 +1,0 @@
-package sample.aop.client;
-
-public interface IFastLane {
-
-}

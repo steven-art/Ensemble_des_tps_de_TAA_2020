@@ -1,5 +1,0 @@
-package sample.aop.bank;
-
-public interface IBank {
-
-}
