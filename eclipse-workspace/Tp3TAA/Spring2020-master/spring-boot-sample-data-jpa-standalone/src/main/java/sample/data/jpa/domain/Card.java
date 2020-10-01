@@ -10,6 +10,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
+import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 /**
@@ -24,6 +25,7 @@ il est également possible d'ajouter une note explicative.
 
  */
 @Entity
+@Table(name = "card")
 public class Card {
 
 	private Long idCard;
@@ -50,7 +52,7 @@ public class Card {
 	
 	 
 	@ManyToOne
-	public User getUser() {
+	public User getUser1() {
 		return user;
 	}
 	@ManyToMany(cascade = CascadeType.PERSIST)
@@ -67,7 +69,7 @@ public class Card {
 		
 	}
 
-	public void setUser(User user) {
+	public void setUser1(User user) {
 		this.user = user;
 	}
 	@ManyToOne

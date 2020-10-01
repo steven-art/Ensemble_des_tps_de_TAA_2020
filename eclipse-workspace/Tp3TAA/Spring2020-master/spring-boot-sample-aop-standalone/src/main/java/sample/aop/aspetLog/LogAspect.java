@@ -25,7 +25,7 @@ public class LogAspect {
         System.out.println("** ** ** ** ** ** ");
     }
 	//s'exécute apres l'execution de la methode addItemToCart
-	@AfterReturning("execution(* sample..*Store.*(..))") 
+	@AfterReturning("execution(* sample..*Client.*(..))") 
 	public void logAfter (JoinPoint joinPoint) {
 
 		System.out.println ("logAfter () est en cours d'exécution!");
@@ -34,7 +34,7 @@ public class LogAspect {
 
 		}
 
-	 @Around("execution(* sample..*Store.*(..))")
+	 @Around("execution(* sample..*Client.*(..))")
 	   public void logAround(ProceedingJoinPoint joinPoint) throws Throwable {
 
 	    System.out.println("logAround() is running!");

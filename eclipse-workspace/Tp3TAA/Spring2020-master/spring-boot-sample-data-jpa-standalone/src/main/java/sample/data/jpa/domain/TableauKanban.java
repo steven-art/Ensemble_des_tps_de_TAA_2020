@@ -9,34 +9,30 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.OneToMany;
+import javax.persistence.Table;
 
 @Entity
+@Table(name = "tableauKanban")
 public class TableauKanban {
 
 	
-	
 	private String nameTable;
 	
-	@OneToMany
-	@JoinColumn(name = "enCoursId")
-	private List<Card> CardEnCour;
-	@OneToMany
-	@JoinColumn(name = "enAttenteId")
-	private List<Card> CardEnAttente;
-	@OneToMany
-	@JoinColumn(name = "termineId")
-	private List<Card> CardTermine;
+	private List<Card> cardEnCour;
+	private List<Card> cardEnAttente;
+	private List<Card> cardTermine;
 	
 	public TableauKanban() {
 		
 	}
 	public TableauKanban(String nameTable) {
 		this.nameTable = nameTable;
-		CardEnCour = new ArrayList();
-		CardEnAttente = new ArrayList();
-		CardTermine = new ArrayList();
+		cardEnCour = new ArrayList();
+		cardEnAttente = new ArrayList();
+		cardTermine = new ArrayList();
 		
 	}
+	
 	
 	@Id
 	public String getNameTable() {
@@ -47,29 +43,29 @@ public class TableauKanban {
 	}
 	
 	@OneToMany(cascade = CascadeType.PERSIST)
-	@JoinColumn(name = "KanbanEnCourId")
+	@JoinColumn(name = "kanbanencourid")
 	public Collection<Card> getCardEnCour() {
-		return CardEnCour;
+		return cardEnCour;
 	}
 	public void setCardEnCour(Card c){
-		CardEnCour.add(c);
+		cardEnCour.add(c);
 	}
 	
 	@OneToMany(cascade = CascadeType.PERSIST)
-	@JoinColumn(name = "KanbanTerminerId")
+	@JoinColumn(name = "kanbanterminerid")
 	public Collection<Card> getCardEnAttente() {
-		return CardEnAttente;
+		return cardEnAttente;
 	}
 	public void setCardEnAttente(Card c){
-		CardEnAttente.add(c);
+		cardEnAttente.add(c);
 	}
 	
 	@OneToMany(cascade = CascadeType.PERSIST)
-	@JoinColumn(name = "KanbanenattenteId")
+	@JoinColumn(name = "kanbanenattenteid")
 	public Collection<Card> getCardTermine() {
-		return CardTermine;
+		return cardTermine;
 	}
 	public void setCardTermine(Card c){
-		CardTermine.add(c);
+		cardTermine.add(c);
 	}
 }
