@@ -27,7 +27,8 @@ il est également possible d'ajouter une note explicative.
 @Entity
 @Table(name = "card")
 public class Card {
-
+	
+	
 	private Long idCard;
 	private String libelle;
 	
@@ -40,7 +41,8 @@ public class Card {
 	
 	private User user;
 	
-	public Card() {
+	public Card(long idCard2) {
+		this.idCard = idCard;
 		tag = new ArrayList<>();
 	}
 	public Card( String url, String note) {
@@ -49,7 +51,12 @@ public class Card {
 		this.note = note;
 	}
 
-	
+	public Card(String libelle,String url, String note) {
+		this.libelle = libelle;
+		this.datebutoire = datebutoire;
+		this.url = url;
+		this.note =note;
+	}
 	 
 	@ManyToOne
 	public User getUser1() {

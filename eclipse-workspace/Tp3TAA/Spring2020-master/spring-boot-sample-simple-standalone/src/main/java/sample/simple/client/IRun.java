@@ -2,6 +2,8 @@ package sample.simple.client;
 
 public interface IRun {
 
-	
-	void run();
+	/**
+	 * cette methode permet executé le senario
+	 */
+	public void run();
 }

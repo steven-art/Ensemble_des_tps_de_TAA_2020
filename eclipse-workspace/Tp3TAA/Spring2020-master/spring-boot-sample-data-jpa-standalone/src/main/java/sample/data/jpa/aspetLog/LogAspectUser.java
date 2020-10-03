@@ -13,11 +13,11 @@ import org.springframework.stereotype.Component;
 
 @Aspect
 @Component
-public class LogAspect {
+public class LogAspectUser {
 
 	// creation de la methode appeler avant execution d'ajout d'un produit dans le panier
 	
-	@Before("execution(* sample..*Store.*(..))")
+	@Before("execution(* sample..*UserController.*(..))")
     public void logBefore(JoinPoint joinPoint) {
 
         System.out.println("logBefore() is running!");
@@ -25,7 +25,7 @@ public class LogAspect {
         System.out.println("** ** ** ** ** ** ");
     }
 	//s'exécute apres l'execution de la methode addItemToCart
-	@AfterReturning("execution(* sample..*Store.*(..))") 
+	@AfterReturning("execution(* sample..*UserController.*(..))") 
 	public void logAfter (JoinPoint joinPoint) {
 
 		System.out.println ("logAfter () est en cours d'exécution!");
@@ -34,7 +34,7 @@ public class LogAspect {
 
 		}
 
-	 @Around("execution(* sample..*Store.*(..))")
+	 @Around("execution(* sample..*UserController.*(..))")
 	   public void logAround(ProceedingJoinPoint joinPoint) throws Throwable {
 
 	    System.out.println("logAround() is running!");

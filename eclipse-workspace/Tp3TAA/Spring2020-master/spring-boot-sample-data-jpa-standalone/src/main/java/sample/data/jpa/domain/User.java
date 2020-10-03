@@ -60,7 +60,5 @@ public void setName(String name) {
 	this.name = name;
 }
 
-  // Getter and setter methods
-  // ...
 
 }
