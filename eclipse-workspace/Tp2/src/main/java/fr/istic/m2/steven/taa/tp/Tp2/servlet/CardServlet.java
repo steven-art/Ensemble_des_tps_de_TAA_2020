@@ -24,18 +24,18 @@ public class CardServlet extends HttpServlet{
 	Tag tag;
 	List<Card> listOfCard;
 	public void init()throws ServletException {
-		 cardDao = new DAOCards();
-		 listOfCard = new ArrayList<>();
+		cardDao = new DAOCards();
+		listOfCard = new ArrayList<>();
 	}
-public String afficheCards(List<Card> listOfCard) {
-		
+	public String afficheCards(List<Card> listOfCard) {
+
 		String nameCard="";
-        for (int i=0; i<listOfCard.size(); i++) {
-           
-            nameCard= nameCard + "</br>"+listOfCard.get(i).getLibelle();
-        }
-        return nameCard;
-		
+		for (int i=0; i<listOfCard.size(); i++) {
+
+			nameCard= nameCard + "</br>"+listOfCard.get(i).getLibelle();
+		}
+		return nameCard;
+
 	}
 	//metode pour remplir une carte et la rentré dans une base de donnée
 	public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
@@ -43,34 +43,31 @@ public String afficheCards(List<Card> listOfCard) {
 		PrintWriter out = response.getWriter();
 		this.init();
 		out.println("<HTML>\n<BODY>\n" +
-                "<H1>Recapitulatif des informations</H1>\n" +
-                "<UL>\n" +            
-        " <LI>Libellé: "
-                + request.getParameter("libelle") + "\n" +
-                " <LI>Url: "
-                + request.getParameter("url") + "\n" +
-                " <LI>Description: "
-                + request.getParameter("note") + "\n" +
-                "<LI>Tag:"
-                + request.getParameter("tag") + "\n" + 
-                "</UL>\n" +                
-        "</BODY></HTML>");
-		Tag tag = new Tag(request.getParameter("tag"));
+				"<H1>Recapitulatif des informations</H1>\n" +
+				"<UL>\n" +            
+				" <LI>Libellé: "
+				+ request.getParameter("libelle") + "\n" +
+				" <LI>Date butoire: "
+				+ request.getParameter("datebutoire") + "\n" +
+				" <LI>Description: "
+				+ request.getParameter("note") + "\n" +
+				"</UL>\n" +                
+				"</BODY></HTML>");
 		Card c = new Card();
 		c.setLibelle(request.getParameter("libelle"));
-		c.setUrl(request.getParameter("url"));
+		c.setUrl(request.getParameter("datebutoire"));
 		c.setNote(request.getParameter("note"));
-		c.addTag(tag);
-		
+
+
 		this.cardDao.saveCard(c);
 
 	}
-	
+
 	public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
 		response.setContentType("text/html");
 		PrintWriter out = response.getWriter();{
 			this.init();
 			List<Card> allCard = cardDao.getAfficheCards();
 
-	}
-}}
+		}
+	}}

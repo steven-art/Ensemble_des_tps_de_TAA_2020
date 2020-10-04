@@ -25,7 +25,8 @@ il est également possible d'ajouter une note explicative.
  */
 @Entity
 public class Card {
-
+	
+	
 	private Long idCard;
 	private String libelle;
 	

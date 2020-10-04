@@ -1,9 +1,5 @@
 package fr.istic.taa.jaxrs.dao.generic;
 
-
-
-
-
 import java.util.List;
 
 import javax.persistence.EntityManager;

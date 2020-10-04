@@ -15,4 +15,5 @@
 /home/steven/eclipse-workspace/JaxRSOpenAPI-master/src/main/java/fr/istic/taa/jaxrs/dao/generic/AbstractJpaDao.java
 /home/steven/eclipse-workspace/JaxRSOpenAPI-master/src/main/java/fr/istic/taa/jaxrs/dao/generic/EntityManagerHelper.java
 /home/steven/eclipse-workspace/JaxRSOpenAPI-master/src/main/java/fr/istic/taa/jaxrs/domain/Card.java
+/home/steven/eclipse-workspace/JaxRSOpenAPI-master/src/main/java/fr/istic/taa/jaxrs/rest/UserRessource.java
 /home/steven/eclipse-workspace/JaxRSOpenAPI-master/src/main/java/fr/istic/taa/jaxrs/domain/Lieu.java
