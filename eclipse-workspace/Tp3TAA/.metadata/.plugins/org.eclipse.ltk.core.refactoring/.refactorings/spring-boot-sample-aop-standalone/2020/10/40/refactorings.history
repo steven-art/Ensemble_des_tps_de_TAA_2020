@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;IRun.java&apos; to &apos;spring-boot-sample-data-jpa-standalone/src/main/java/sample.data.jpa.web&apos;&#x0A;- Original project: &apos;spring-boot-sample-aop-standalone&apos;&#x0A;- Destination element: &apos;spring-boot-sample-data-jpa-standalone/src/main/java/sample.data.jpa.web&apos;&#x0A;- Original element: &apos;sample.aop.client.IRun.java&apos;" description="Copy compilation unit" destination="=spring-boot-sample-data-jpa-standalone/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;sample.data.jpa.web" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;sample.aop.client{IRun.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1601726507737" units="1" version="1.0"/>
+</session>

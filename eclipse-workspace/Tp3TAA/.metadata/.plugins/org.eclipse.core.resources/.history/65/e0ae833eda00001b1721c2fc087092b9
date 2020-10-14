@@ -1,5 +1,0 @@
-package sample.aop.aspetLog;
-
-public class LogAspect {
-
-}

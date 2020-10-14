@@ -1524,3 +1524,570 @@
 2020-09-28 22:12:09,398 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
 2020-09-28 22:12:09,400 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2020-09-28 22:12:09,400 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-28 22:17:24,167 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-28 22:17:24,168 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-09-28 22:17:24,171 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-28 22:17:24,172 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-29 08:50:09,168 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-09-29 08:52:53,986 [Worker-0: Launching SampleAopApplication] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from http://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from/to spring-snapshots (http://repo.spring.io/snapshot): Access denied to http://repo.spring.io/snapshot/org/apache/maven/plugins/maven-eclipse-plugin/maven-metadata.xml. Error code 403, Forbidden
+2020-09-29 08:52:53,990 [Worker-0: Launching SampleAopApplication] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from http://repo.spring.io/milestone was cached in the local repository, resolution will not be reattempted until the update interval of spring-milestones has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from/to spring-milestones (http://repo.spring.io/milestone): Access denied to http://repo.spring.io/milestone/org/apache/maven/plugins/maven-eclipse-plugin/maven-metadata.xml. Error code 403, Forbidden
+2020-09-29 08:52:53,991 [Worker-0: Launching SampleAopApplication] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from http://repo.spring.io/release was cached in the local repository, resolution will not be reattempted until the update interval of spring-releases has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from/to spring-releases (http://repo.spring.io/release): Access denied to http://repo.spring.io/release/org/apache/maven/plugins/maven-eclipse-plugin/maven-metadata.xml. Error code 403, Forbidden
+2020-09-29 08:52:54,626 [Worker-0: Launching SampleAopApplication] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-29 08:52:54,630 [Worker-0: Launching SampleAopApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-29 08:52:54,636 [Worker-0: Launching SampleAopApplication] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-29 08:52:54,637 [Worker-0: Launching SampleAopApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/steven/eclipse-workspace/Tp3TAA/Spring2020-master/spring-boot-sample-aop-standalone/src/test/resources
+2020-09-29 08:54:24,643 [Worker-9: Launching SampleAopApplication] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-29 08:54:24,659 [Worker-9: Launching SampleAopApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-29 08:54:24,674 [Worker-9: Launching SampleAopApplication] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-29 08:54:24,675 [Worker-9: Launching SampleAopApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/steven/eclipse-workspace/Tp3TAA/Spring2020-master/spring-boot-sample-aop-standalone/src/test/resources
+2020-09-29 08:55:22,109 [Worker-9: Launching SampleAopApplication] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-29 08:55:22,111 [Worker-9: Launching SampleAopApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-29 08:55:22,113 [Worker-9: Launching SampleAopApplication] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-29 08:55:22,114 [Worker-9: Launching SampleAopApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/steven/eclipse-workspace/Tp3TAA/Spring2020-master/spring-boot-sample-aop-standalone/src/test/resources
+2020-10-01 12:54:02,695 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-10-01 13:43:04,316 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from http://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from/to spring-snapshots (http://repo.spring.io/snapshot): Access denied to http://repo.spring.io/snapshot/org/apache/maven/plugins/maven-eclipse-plugin/maven-metadata.xml. Error code 403, Forbidden
+2020-10-01 13:43:04,321 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from http://repo.spring.io/milestone was cached in the local repository, resolution will not be reattempted until the update interval of spring-milestones has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from/to spring-milestones (http://repo.spring.io/milestone): Access denied to http://repo.spring.io/milestone/org/apache/maven/plugins/maven-eclipse-plugin/maven-metadata.xml. Error code 403, Forbidden
+2020-10-01 13:43:04,322 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from http://repo.spring.io/release was cached in the local repository, resolution will not be reattempted until the update interval of spring-releases has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from/to spring-releases (http://repo.spring.io/release): Access denied to http://repo.spring.io/release/org/apache/maven/plugins/maven-eclipse-plugin/maven-metadata.xml. Error code 403, Forbidden
+2020-10-01 13:43:04,635 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 13:43:04,640 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-01 13:43:04,649 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 13:43:04,650 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-01 13:43:50,423 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 13:43:50,431 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-01 13:43:50,435 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 13:43:50,436 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-01 13:47:01,746 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 13:47:01,755 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-01 13:47:01,757 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 13:47:01,758 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-01 13:54:15,824 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 13:54:15,833 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-01 13:54:15,835 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 13:54:15,836 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-01 14:03:14,676 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 14:03:14,679 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-01 14:03:14,681 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 14:03:14,681 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-01 14:08:45,680 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 14:08:45,681 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-01 14:08:45,683 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 14:08:45,684 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-01 14:10:56,936 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 14:10:56,944 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-01 14:10:56,950 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 14:10:56,950 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-01 14:15:41,382 [Worker-51: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 14:15:41,385 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-01 14:15:41,393 [Worker-51: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 14:15:41,394 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-01 15:08:00,221 [Worker-58: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 15:08:00,229 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-01 15:08:00,232 [Worker-58: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 15:08:00,233 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-01 15:10:02,703 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 15:10:02,704 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-01 15:10:02,707 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 15:10:02,707 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-01 15:11:07,193 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 15:11:07,194 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-01 15:11:07,197 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 15:11:07,199 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-01 15:11:38,154 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 15:11:38,156 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-01 15:11:38,159 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 15:11:38,159 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-01 15:16:11,807 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 15:16:11,812 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-01 15:16:11,813 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 15:16:11,814 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-01 15:16:15,361 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 15:16:15,362 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-01 15:16:15,364 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 15:16:15,365 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-01 15:16:57,416 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 15:16:57,417 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-01 15:16:57,419 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 15:16:57,420 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-01 15:17:10,846 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 15:17:10,849 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-01 15:17:10,855 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 15:17:10,866 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-01 15:17:20,896 [Worker-60: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 15:17:20,897 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-01 15:17:20,899 [Worker-60: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 15:17:20,900 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-01 15:17:27,958 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 15:17:27,960 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-01 15:17:27,962 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 15:17:27,963 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-01 15:17:51,923 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 15:17:51,924 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-01 15:17:51,927 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 15:17:51,928 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-01 15:18:29,933 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 15:18:29,934 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-01 15:18:29,936 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 15:18:29,945 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-01 15:41:30,681 [Worker-64: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 15:41:30,686 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-01 15:41:30,687 [Worker-64: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 15:41:30,688 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-01 16:09:12,791 [Worker-70: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 16:09:12,793 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-01 16:09:12,795 [Worker-70: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 16:09:12,795 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-01 16:09:28,716 [Worker-69: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 16:09:28,717 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-01 16:09:28,720 [Worker-69: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 16:09:28,720 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-01 16:10:28,100 [Worker-73: Launching spring-boot-sample-data-jpa-standalone - SampleDataJpaApplication] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 16:10:28,104 [Worker-73: Launching spring-boot-sample-data-jpa-standalone - SampleDataJpaApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-01 16:10:28,108 [Worker-73: Launching spring-boot-sample-data-jpa-standalone - SampleDataJpaApplication] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 16:10:28,109 [Worker-73: Launching spring-boot-sample-data-jpa-standalone - SampleDataJpaApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-01 16:37:36,726 [Worker-69: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 16:37:36,727 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-01 16:37:36,728 [Worker-69: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 16:37:36,729 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-01 16:38:54,567 [Worker-77: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 16:38:54,568 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-01 16:38:54,570 [Worker-77: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 16:38:54,570 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-01 16:42:02,774 [Worker-84: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 16:42:02,781 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-01 16:42:02,784 [Worker-84: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 16:42:02,785 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-01 16:42:57,081 [Worker-69: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 16:42:57,084 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-01 16:42:57,087 [Worker-69: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 16:42:57,089 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-01 16:43:37,416 [Worker-84: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 16:43:37,417 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-01 16:43:37,418 [Worker-84: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 16:43:37,419 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-01 16:43:39,661 [Worker-82: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 16:43:39,662 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-01 16:43:39,664 [Worker-82: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 16:43:39,665 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-01 16:43:40,756 [Worker-82: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 16:43:40,757 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-01 16:43:40,758 [Worker-82: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 16:43:40,759 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-01 16:43:53,835 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 16:43:53,837 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-01 16:43:53,841 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 16:43:53,843 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-01 16:44:03,971 [Worker-86: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 16:44:03,972 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-01 16:44:03,974 [Worker-86: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 16:44:03,975 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-01 16:45:24,164 [Worker-83: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 16:45:24,165 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-01 16:45:24,166 [Worker-83: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 16:45:24,167 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-01 16:45:34,262 [Worker-86: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 16:45:34,264 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-01 16:45:34,267 [Worker-86: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 16:45:34,269 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-01 16:46:51,404 [Worker-80: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 16:46:51,411 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-01 16:46:51,420 [Worker-80: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 16:46:51,421 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-01 16:48:13,541 [Worker-86: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 16:48:13,542 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-01 16:48:13,543 [Worker-86: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 16:48:13,543 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-01 16:48:25,788 [Worker-87: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 16:48:25,789 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-01 16:48:25,790 [Worker-87: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 16:48:25,793 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-01 18:14:00,222 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-10-01 18:22:03,997 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from http://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from/to spring-snapshots (http://repo.spring.io/snapshot): Access denied to http://repo.spring.io/snapshot/org/apache/maven/plugins/maven-eclipse-plugin/maven-metadata.xml. Error code 403, Forbidden
+2020-10-01 18:22:04,000 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from http://repo.spring.io/milestone was cached in the local repository, resolution will not be reattempted until the update interval of spring-milestones has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from/to spring-milestones (http://repo.spring.io/milestone): Access denied to http://repo.spring.io/milestone/org/apache/maven/plugins/maven-eclipse-plugin/maven-metadata.xml. Error code 403, Forbidden
+2020-10-01 18:22:04,002 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from http://repo.spring.io/release was cached in the local repository, resolution will not be reattempted until the update interval of spring-releases has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from/to spring-releases (http://repo.spring.io/release): Access denied to http://repo.spring.io/release/org/apache/maven/plugins/maven-eclipse-plugin/maven-metadata.xml. Error code 403, Forbidden
+2020-10-01 18:22:04,490 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 18:22:04,496 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-01 18:22:04,505 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 18:22:04,506 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-01 18:22:16,786 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 18:22:16,790 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-01 18:22:16,793 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 18:22:16,794 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-01 18:22:28,732 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 18:22:28,733 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-01 18:22:28,734 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 18:22:28,735 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-01 18:22:43,233 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 18:22:43,234 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-01 18:22:43,236 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 18:22:43,237 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-01 18:22:48,600 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 18:22:48,601 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-01 18:22:48,603 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 18:22:48,604 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-01 18:22:54,493 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 18:22:54,494 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-01 18:22:54,496 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 18:22:54,496 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-01 18:25:56,719 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 18:25:56,720 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-01 18:25:56,723 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 18:25:56,723 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-01 18:26:02,323 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 18:26:02,326 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-01 18:26:02,335 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 18:26:02,336 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-01 18:26:09,620 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 18:26:09,622 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-01 18:26:09,624 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 18:26:09,624 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-01 18:56:03,101 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-10-01 19:14:38,802 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from http://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from/to spring-snapshots (http://repo.spring.io/snapshot): Access denied to http://repo.spring.io/snapshot/org/apache/maven/plugins/maven-eclipse-plugin/maven-metadata.xml. Error code 403, Forbidden
+2020-10-01 19:14:38,805 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from http://repo.spring.io/milestone was cached in the local repository, resolution will not be reattempted until the update interval of spring-milestones has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from/to spring-milestones (http://repo.spring.io/milestone): Access denied to http://repo.spring.io/milestone/org/apache/maven/plugins/maven-eclipse-plugin/maven-metadata.xml. Error code 403, Forbidden
+2020-10-01 19:14:38,806 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from http://repo.spring.io/release was cached in the local repository, resolution will not be reattempted until the update interval of spring-releases has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from/to spring-releases (http://repo.spring.io/release): Access denied to http://repo.spring.io/release/org/apache/maven/plugins/maven-eclipse-plugin/maven-metadata.xml. Error code 403, Forbidden
+2020-10-01 19:14:39,129 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 19:14:39,133 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-10-01 19:14:39,138 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 19:14:39,139 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-01 19:14:55,750 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 19:14:55,754 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-10-01 19:14:55,756 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-01 19:14:55,757 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-03 10:53:58,856 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-10-03 10:58:10,471 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from http://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from/to spring-snapshots (http://repo.spring.io/snapshot): Access denied to http://repo.spring.io/snapshot/org/apache/maven/plugins/maven-eclipse-plugin/maven-metadata.xml. Error code 403, Forbidden
+2020-10-03 10:58:10,476 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from http://repo.spring.io/milestone was cached in the local repository, resolution will not be reattempted until the update interval of spring-milestones has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from/to spring-milestones (http://repo.spring.io/milestone): Access denied to http://repo.spring.io/milestone/org/apache/maven/plugins/maven-eclipse-plugin/maven-metadata.xml. Error code 403, Forbidden
+2020-10-03 10:58:10,477 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from http://repo.spring.io/release was cached in the local repository, resolution will not be reattempted until the update interval of spring-releases has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from/to spring-releases (http://repo.spring.io/release): Access denied to http://repo.spring.io/release/org/apache/maven/plugins/maven-eclipse-plugin/maven-metadata.xml. Error code 403, Forbidden
+2020-10-03 10:58:11,311 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 10:58:11,317 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-10-03 10:58:11,331 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 10:58:11,332 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-03 10:58:22,419 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 10:58:22,423 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-10-03 10:58:22,425 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 10:58:22,426 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-03 10:58:54,157 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 10:58:54,161 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-10-03 10:58:54,163 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 10:58:54,164 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-03 10:58:55,283 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 10:58:55,283 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-03 10:58:55,285 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 10:58:55,293 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-03 10:59:35,311 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 10:59:35,312 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-10-03 10:59:35,314 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 10:59:35,315 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-03 11:01:32,107 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 11:01:32,108 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-10-03 11:01:32,110 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 11:01:32,111 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-03 11:07:54,440 [Worker-14: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-10-03 11:07:54,695 [Worker-14: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from http://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from/to spring-snapshots (http://repo.spring.io/snapshot): Access denied to http://repo.spring.io/snapshot/org/apache/maven/plugins/maven-eclipse-plugin/maven-metadata.xml. Error code 403, Forbidden
+2020-10-03 11:07:54,697 [Worker-14: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from http://repo.spring.io/milestone was cached in the local repository, resolution will not be reattempted until the update interval of spring-milestones has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from/to spring-milestones (http://repo.spring.io/milestone): Access denied to http://repo.spring.io/milestone/org/apache/maven/plugins/maven-eclipse-plugin/maven-metadata.xml. Error code 403, Forbidden
+2020-10-03 11:07:54,698 [Worker-14: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from http://repo.spring.io/release was cached in the local repository, resolution will not be reattempted until the update interval of spring-releases has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from/to spring-releases (http://repo.spring.io/release): Access denied to http://repo.spring.io/release/org/apache/maven/plugins/maven-eclipse-plugin/maven-metadata.xml. Error code 403, Forbidden
+2020-10-03 11:07:55,222 [Worker-14: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.springframework.boot:spring-boot-sample-simple:2.3.3.RELEASE @ /home/steven/eclipse-workspace/Tp3TAA/Spring2020-master/spring-boot-sample-simple-standalone/pom.xml.
+2020-10-03 11:07:55,598 [Worker-14: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-sample-simple-standalone/src/main/java
+2020-10-03 11:07:55,599 [Worker-14: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-sample-simple-standalone/src/main/resources
+2020-10-03 11:07:55,600 [Worker-14: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-sample-simple-standalone/src/test/java
+2020-10-03 11:07:55,600 [Worker-14: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-sample-simple-standalone/src/test/resources
+2020-10-03 11:07:55,927 [Worker-14: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2020-10-03 11:07:56,693 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from http://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from/to spring-snapshots (http://repo.spring.io/snapshot): Access denied to http://repo.spring.io/snapshot/org/apache/maven/plugins/maven-eclipse-plugin/maven-metadata.xml. Error code 403, Forbidden
+2020-10-03 11:07:56,694 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from http://repo.spring.io/milestone was cached in the local repository, resolution will not be reattempted until the update interval of spring-milestones has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from/to spring-milestones (http://repo.spring.io/milestone): Access denied to http://repo.spring.io/milestone/org/apache/maven/plugins/maven-eclipse-plugin/maven-metadata.xml. Error code 403, Forbidden
+2020-10-03 11:07:56,695 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from http://repo.spring.io/release was cached in the local repository, resolution will not be reattempted until the update interval of spring-releases has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from/to spring-releases (http://repo.spring.io/release): Access denied to http://repo.spring.io/release/org/apache/maven/plugins/maven-eclipse-plugin/maven-metadata.xml. Error code 403, Forbidden
+2020-10-03 11:07:56,713 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 11:07:56,714 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-10-03 11:07:56,740 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 11:07:56,742 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-03 11:10:46,535 [Worker-20: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-10-03 11:10:46,606 [Worker-20: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from http://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from/to spring-snapshots (http://repo.spring.io/snapshot): Access denied to http://repo.spring.io/snapshot/org/apache/maven/plugins/maven-eclipse-plugin/maven-metadata.xml. Error code 403, Forbidden
+2020-10-03 11:10:46,609 [Worker-20: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from http://repo.spring.io/milestone was cached in the local repository, resolution will not be reattempted until the update interval of spring-milestones has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from/to spring-milestones (http://repo.spring.io/milestone): Access denied to http://repo.spring.io/milestone/org/apache/maven/plugins/maven-eclipse-plugin/maven-metadata.xml. Error code 403, Forbidden
+2020-10-03 11:10:46,610 [Worker-20: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from http://repo.spring.io/release was cached in the local repository, resolution will not be reattempted until the update interval of spring-releases has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from/to spring-releases (http://repo.spring.io/release): Access denied to http://repo.spring.io/release/org/apache/maven/plugins/maven-eclipse-plugin/maven-metadata.xml. Error code 403, Forbidden
+2020-10-03 11:10:46,647 [Worker-20: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.springframework.boot:spring-boot-sample-data-jpa:2.3.3.RELEASE @ /home/steven/eclipse-workspace/Tp3TAA/Spring2020-master/spring-boot-sample-data-jpa-standalone/pom.xml.
+2020-10-03 11:10:46,979 [Worker-20: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-sample-data-jpa-standalone/src/main/java
+2020-10-03 11:10:46,980 [Worker-20: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-sample-data-jpa-standalone/src/main/resources
+2020-10-03 11:10:46,981 [Worker-20: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-sample-data-jpa-standalone/src/test/java
+2020-10-03 11:10:46,981 [Worker-20: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-sample-data-jpa-standalone/src/test/resources
+2020-10-03 11:10:47,258 [Worker-20: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2020-10-03 11:10:47,996 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from http://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from/to spring-snapshots (http://repo.spring.io/snapshot): Access denied to http://repo.spring.io/snapshot/org/apache/maven/plugins/maven-eclipse-plugin/maven-metadata.xml. Error code 403, Forbidden
+2020-10-03 11:10:47,996 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from http://repo.spring.io/milestone was cached in the local repository, resolution will not be reattempted until the update interval of spring-milestones has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from/to spring-milestones (http://repo.spring.io/milestone): Access denied to http://repo.spring.io/milestone/org/apache/maven/plugins/maven-eclipse-plugin/maven-metadata.xml. Error code 403, Forbidden
+2020-10-03 11:10:47,997 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from http://repo.spring.io/release was cached in the local repository, resolution will not be reattempted until the update interval of spring-releases has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from/to spring-releases (http://repo.spring.io/release): Access denied to http://repo.spring.io/release/org/apache/maven/plugins/maven-eclipse-plugin/maven-metadata.xml. Error code 403, Forbidden
+2020-10-03 11:10:48,002 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 11:10:48,003 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-03 11:10:48,013 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 11:10:48,013 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-03 13:58:47,880 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 13:58:47,888 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-03 13:58:47,890 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 13:58:47,891 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-03 14:01:47,894 [Worker-30: Building Workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 14:01:47,895 [Worker-30: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-03 14:01:47,897 [Worker-30: Building Workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 14:01:47,897 [Worker-30: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-03 14:02:26,636 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 14:02:26,637 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-03 14:02:26,643 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 14:02:26,643 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-03 14:03:50,921 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 14:03:50,922 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-03 14:03:50,923 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 14:03:50,925 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-03 14:05:51,894 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 14:05:51,895 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-03 14:05:51,897 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 14:05:51,897 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-03 14:06:24,699 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 14:06:24,700 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-03 14:06:24,702 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 14:06:24,703 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-03 14:07:23,584 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 14:07:23,586 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-03 14:07:23,592 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 14:07:23,593 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-03 14:12:58,571 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 14:12:58,572 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-03 14:12:58,574 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 14:12:58,575 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-03 14:16:11,050 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 14:16:11,051 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-03 14:16:11,053 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 14:16:11,054 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-03 14:16:35,787 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 14:16:35,788 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-03 14:16:35,789 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 14:16:35,790 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-03 14:17:04,704 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 14:17:04,706 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-03 14:17:04,708 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 14:17:04,709 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-03 14:17:20,123 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 14:17:20,124 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-03 14:17:20,126 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 14:17:20,127 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-03 14:18:32,394 [Worker-33: Launching spring-boot-sample-data-jpa-standalone - SampleDataJpaApplication] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 14:18:32,395 [Worker-33: Launching spring-boot-sample-data-jpa-standalone - SampleDataJpaApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-03 14:18:32,398 [Worker-33: Launching spring-boot-sample-data-jpa-standalone - SampleDataJpaApplication] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 14:18:32,400 [Worker-33: Launching spring-boot-sample-data-jpa-standalone - SampleDataJpaApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-03 14:20:38,451 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 14:20:38,452 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-03 14:20:38,454 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 14:20:38,455 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-03 14:21:10,719 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from http://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from/to spring-snapshots (http://repo.spring.io/snapshot): Access denied to http://repo.spring.io/snapshot/org/apache/maven/plugins/maven-eclipse-plugin/maven-metadata.xml. Error code 403, Forbidden
+2020-10-03 14:21:10,720 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from http://repo.spring.io/milestone was cached in the local repository, resolution will not be reattempted until the update interval of spring-milestones has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from/to spring-milestones (http://repo.spring.io/milestone): Access denied to http://repo.spring.io/milestone/org/apache/maven/plugins/maven-eclipse-plugin/maven-metadata.xml. Error code 403, Forbidden
+2020-10-03 14:21:10,722 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from http://repo.spring.io/release was cached in the local repository, resolution will not be reattempted until the update interval of spring-releases has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from/to spring-releases (http://repo.spring.io/release): Access denied to http://repo.spring.io/release/org/apache/maven/plugins/maven-eclipse-plugin/maven-metadata.xml. Error code 403, Forbidden
+2020-10-03 14:21:10,732 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 14:21:10,733 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-03 14:21:10,735 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 14:21:10,736 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/steven/eclipse-workspace/Tp3TAA/Spring2020-master/spring-boot-sample-aop-standalone/src/test/resources
+2020-10-03 14:21:27,870 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 14:21:27,872 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-03 14:21:27,879 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 14:21:27,881 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-03 14:21:44,803 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 14:21:44,805 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-03 14:21:44,806 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 14:21:44,807 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-03 14:26:54,130 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 14:26:54,131 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-03 14:26:54,132 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 14:26:54,133 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-03 14:27:01,158 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 14:27:01,159 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-03 14:27:01,161 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 14:27:01,161 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-03 14:27:14,203 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 14:27:14,205 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-03 14:27:14,214 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 14:27:14,215 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-03 14:27:21,939 [Worker-42: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 14:27:21,941 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-03 14:27:21,943 [Worker-42: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 14:27:21,945 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-03 14:27:25,918 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 14:27:25,919 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-03 14:27:25,921 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 14:27:25,921 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-03 15:39:47,566 [Worker-65: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 15:39:47,574 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-03 15:39:47,576 [Worker-65: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 15:39:47,577 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-03 15:40:31,170 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 15:40:31,172 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-03 15:40:31,175 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 15:40:31,175 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-03 15:43:33,257 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 15:43:33,258 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-03 15:43:33,260 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 15:43:33,264 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-03 15:44:09,656 [Worker-66: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 15:44:09,659 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-03 15:44:09,662 [Worker-66: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 15:44:09,664 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-03 15:45:08,636 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 15:45:08,638 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-03 15:45:08,640 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 15:45:08,642 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-03 15:46:17,033 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 15:46:17,035 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-03 15:46:17,039 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 15:46:17,040 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-03 15:46:25,028 [Worker-62: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 15:46:25,029 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-03 15:46:25,035 [Worker-62: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 15:46:25,036 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-03 15:46:53,710 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 15:46:53,713 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-03 15:46:53,718 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 15:46:53,719 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-03 15:47:15,262 [Worker-65: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 15:47:15,263 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-03 15:47:15,266 [Worker-65: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 15:47:15,266 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-03 15:50:09,553 [Worker-64: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 15:50:09,554 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-03 15:50:09,555 [Worker-64: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 15:50:09,556 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-03 15:55:58,950 [Worker-69: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 15:55:58,951 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-03 15:55:58,953 [Worker-69: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 15:55:58,953 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-03 16:07:07,985 [Worker-77: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 16:07:07,987 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-03 16:07:07,990 [Worker-77: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 16:07:07,992 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-03 16:15:44,684 [Worker-79: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 16:15:44,685 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-03 16:15:44,689 [Worker-79: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 16:15:44,690 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-03 16:25:23,848 [Worker-82: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 16:25:23,850 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-03 16:25:23,851 [Worker-82: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 16:25:23,852 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-03 16:25:46,020 [Worker-89: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 16:25:46,021 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-03 16:25:46,022 [Worker-89: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 16:25:46,022 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-03 16:26:09,623 [Worker-87: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 16:26:09,627 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-03 16:26:09,634 [Worker-87: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 16:26:09,635 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-03 16:26:45,954 [Worker-87: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 16:26:45,955 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-03 16:26:45,957 [Worker-87: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-03 16:26:45,958 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-10 07:45:42,013 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-10-10 07:45:54,905 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from http://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from/to spring-snapshots (http://repo.spring.io/snapshot): Access denied to http://repo.spring.io/snapshot/org/apache/maven/plugins/maven-eclipse-plugin/maven-metadata.xml. Error code 403, Forbidden
+2020-10-10 07:45:54,906 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from http://repo.spring.io/milestone was cached in the local repository, resolution will not be reattempted until the update interval of spring-milestones has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from/to spring-milestones (http://repo.spring.io/milestone): Access denied to http://repo.spring.io/milestone/org/apache/maven/plugins/maven-eclipse-plugin/maven-metadata.xml. Error code 403, Forbidden
+2020-10-10 07:45:54,907 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from http://repo.spring.io/release was cached in the local repository, resolution will not be reattempted until the update interval of spring-releases has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from/to spring-releases (http://repo.spring.io/release): Access denied to http://repo.spring.io/release/org/apache/maven/plugins/maven-eclipse-plugin/maven-metadata.xml. Error code 403, Forbidden
+2020-10-10 07:45:55,221 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-10 07:45:55,226 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-10 07:45:55,233 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-10 07:45:55,234 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-11 10:56:13,776 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-10-11 10:59:11,338 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2020-10-11 11:00:32,925 [Worker-0: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-10-11 11:00:33,182 [Worker-0: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from http://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from/to spring-snapshots (http://repo.spring.io/snapshot): Access denied to http://repo.spring.io/snapshot/org/apache/maven/plugins/maven-eclipse-plugin/maven-metadata.xml. Error code 403, Forbidden
+2020-10-11 11:00:33,183 [Worker-0: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from http://repo.spring.io/milestone was cached in the local repository, resolution will not be reattempted until the update interval of spring-milestones has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from/to spring-milestones (http://repo.spring.io/milestone): Access denied to http://repo.spring.io/milestone/org/apache/maven/plugins/maven-eclipse-plugin/maven-metadata.xml. Error code 403, Forbidden
+2020-10-11 11:00:33,184 [Worker-0: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from http://repo.spring.io/release was cached in the local repository, resolution will not be reattempted until the update interval of spring-releases has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from/to spring-releases (http://repo.spring.io/release): Access denied to http://repo.spring.io/release/org/apache/maven/plugins/maven-eclipse-plugin/maven-metadata.xml. Error code 403, Forbidden
+2020-10-11 11:00:33,673 [Worker-0: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.springframework.boot:spring-boot-sample-data-jpa:2.3.3.RELEASE @ /home/steven/eclipse-workspace/Tp3TAA/Spring2020-master/spring-boot-sample-data-jpa-standalone/pom.xml.
+2020-10-11 11:00:34,231 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-sample-data-jpa-standalone/src/main/java
+2020-10-11 11:00:34,232 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-sample-data-jpa-standalone/src/main/resources
+2020-10-11 11:00:34,233 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-sample-data-jpa-standalone/src/test/java
+2020-10-11 11:00:34,233 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-sample-data-jpa-standalone/src/test/resources
+2020-10-11 11:00:34,507 [Worker-0: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2020-10-11 11:00:35,327 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from http://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from/to spring-snapshots (http://repo.spring.io/snapshot): Access denied to http://repo.spring.io/snapshot/org/apache/maven/plugins/maven-eclipse-plugin/maven-metadata.xml. Error code 403, Forbidden
+2020-10-11 11:00:35,328 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from http://repo.spring.io/milestone was cached in the local repository, resolution will not be reattempted until the update interval of spring-milestones has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from/to spring-milestones (http://repo.spring.io/milestone): Access denied to http://repo.spring.io/milestone/org/apache/maven/plugins/maven-eclipse-plugin/maven-metadata.xml. Error code 403, Forbidden
+2020-10-11 11:00:35,329 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from http://repo.spring.io/release was cached in the local repository, resolution will not be reattempted until the update interval of spring-releases has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from/to spring-releases (http://repo.spring.io/release): Access denied to http://repo.spring.io/release/org/apache/maven/plugins/maven-eclipse-plugin/maven-metadata.xml. Error code 403, Forbidden
+2020-10-11 11:00:35,373 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-11 11:00:35,377 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-11 11:00:35,388 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-11 11:00:35,389 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-11 11:11:29,266 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-11 11:11:29,271 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-11 11:11:29,273 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-11 11:11:29,274 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-11 11:13:12,259 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-11 11:13:12,260 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-11 11:13:12,262 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-11 11:13:12,263 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-11 11:13:54,702 [Worker-16: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-11 11:13:54,703 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-11 11:13:54,705 [Worker-16: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-11 11:13:54,706 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-13 09:31:42,039 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-10-14 15:07:31,766 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-10-14 15:07:46,388 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from http://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from/to spring-snapshots (http://repo.spring.io/snapshot): Access denied to http://repo.spring.io/snapshot/org/apache/maven/plugins/maven-eclipse-plugin/maven-metadata.xml. Error code 403, Forbidden
+2020-10-14 15:07:46,390 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from http://repo.spring.io/milestone was cached in the local repository, resolution will not be reattempted until the update interval of spring-milestones has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from/to spring-milestones (http://repo.spring.io/milestone): Access denied to http://repo.spring.io/milestone/org/apache/maven/plugins/maven-eclipse-plugin/maven-metadata.xml. Error code 403, Forbidden
+2020-10-14 15:07:46,391 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from http://repo.spring.io/release was cached in the local repository, resolution will not be reattempted until the update interval of spring-releases has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from/to spring-releases (http://repo.spring.io/release): Access denied to http://repo.spring.io/release/org/apache/maven/plugins/maven-eclipse-plugin/maven-metadata.xml. Error code 403, Forbidden
+2020-10-14 15:07:46,771 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-14 15:07:46,777 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-14 15:07:46,788 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-14 15:07:46,789 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/steven/eclipse-workspace/Tp3TAA/Spring2020-master/spring-boot-sample-aop-standalone/src/test/resources
+2020-10-14 15:07:47,662 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from http://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from/to spring-snapshots (http://repo.spring.io/snapshot): Access denied to http://repo.spring.io/snapshot/org/apache/maven/plugins/maven-eclipse-plugin/maven-metadata.xml. Error code 403, Forbidden
+2020-10-14 15:07:47,663 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from http://repo.spring.io/milestone was cached in the local repository, resolution will not be reattempted until the update interval of spring-milestones has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from/to spring-milestones (http://repo.spring.io/milestone): Access denied to http://repo.spring.io/milestone/org/apache/maven/plugins/maven-eclipse-plugin/maven-metadata.xml. Error code 403, Forbidden
+2020-10-14 15:07:47,665 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from http://repo.spring.io/release was cached in the local repository, resolution will not be reattempted until the update interval of spring-releases has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from/to spring-releases (http://repo.spring.io/release): Access denied to http://repo.spring.io/release/org/apache/maven/plugins/maven-eclipse-plugin/maven-metadata.xml. Error code 403, Forbidden
+2020-10-14 15:07:47,674 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-14 15:07:47,676 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-10-14 15:07:47,680 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-14 15:07:47,683 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-14 15:07:48,358 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from http://repo.spring.io/snapshot was cached in the local repository, resolution will not be reattempted until the update interval of spring-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from/to spring-snapshots (http://repo.spring.io/snapshot): Access denied to http://repo.spring.io/snapshot/org/apache/maven/plugins/maven-eclipse-plugin/maven-metadata.xml. Error code 403, Forbidden
+2020-10-14 15:07:48,361 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from http://repo.spring.io/milestone was cached in the local repository, resolution will not be reattempted until the update interval of spring-milestones has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from/to spring-milestones (http://repo.spring.io/milestone): Access denied to http://repo.spring.io/milestone/org/apache/maven/plugins/maven-eclipse-plugin/maven-metadata.xml. Error code 403, Forbidden
+2020-10-14 15:07:48,362 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from http://repo.spring.io/release was cached in the local repository, resolution will not be reattempted until the update interval of spring-releases has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-eclipse-plugin/maven-metadata.xml from/to spring-releases (http://repo.spring.io/release): Access denied to http://repo.spring.io/release/org/apache/maven/plugins/maven-eclipse-plugin/maven-metadata.xml. Error code 403, Forbidden
+2020-10-14 15:07:48,369 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-14 15:07:48,370 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-10-14 15:07:48,381 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-14 15:07:48,381 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-10-14 15:26:21,957 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-14 15:26:21,969 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-14 15:26:21,972 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-14 15:26:21,974 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-14 15:34:41,943 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-14 15:34:41,944 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-14 15:34:41,946 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-14 15:34:41,946 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-14 15:35:28,231 [Worker-17: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-14 15:35:28,232 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-14 15:35:28,234 [Worker-17: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-14 15:35:28,234 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-14 15:39:11,162 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-14 15:39:11,162 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-14 15:39:11,164 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-14 15:39:11,164 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-14 15:39:32,961 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-14 15:39:32,962 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-14 15:39:32,966 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-14 15:39:32,967 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-14 15:40:17,750 [Worker-17: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-14 15:40:17,751 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-14 15:40:17,753 [Worker-17: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-14 15:40:17,753 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-14 15:40:39,119 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-14 15:40:39,120 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-14 15:40:39,121 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-14 15:40:39,122 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-14 15:40:57,653 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-14 15:40:57,654 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-14 15:40:57,656 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-14 15:40:57,657 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-14 15:41:06,458 [Worker-17: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-14 15:41:06,459 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-14 15:41:06,461 [Worker-17: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-14 15:41:06,461 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-14 15:41:24,158 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-14 15:41:24,159 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-14 15:41:24,161 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-14 15:41:24,161 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-14 15:41:31,578 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-14 15:41:31,579 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-14 15:41:31,581 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-14 15:41:31,581 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-14 15:42:08,530 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-14 15:42:08,532 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-14 15:42:08,536 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-14 15:42:08,538 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-14 15:42:42,281 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-14 15:42:42,281 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-14 15:42:42,284 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-14 15:42:42,285 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-14 15:43:03,061 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-14 15:43:03,062 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-10-14 15:43:03,063 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-10-14 15:43:03,064 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource

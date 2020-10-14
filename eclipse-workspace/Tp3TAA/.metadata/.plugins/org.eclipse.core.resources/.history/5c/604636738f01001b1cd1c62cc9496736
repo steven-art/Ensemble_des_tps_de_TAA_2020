@@ -1,9 +1,0 @@
-package sample.aop.store;
-
-public interface IFastLane {
-
-	void getTransfert();
-
-	void oneShotOrder(Products product, int quantity);
-
-}

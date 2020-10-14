@@ -1,0 +1,79 @@
+package sample.data.jpa.domain;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+
+import javax.persistence.CascadeType;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToMany;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "tableauKanban")
+public class TableauKanban {
+
+	private Long idKanban;
+	private String nameTable;
+	
+	private List<Card> cardEnCour;
+	private List<Card> cardEnAttente;
+	private List<Card> cardTermine;
+	
+	public TableauKanban() {
+		
+	}
+	public TableauKanban(String nameTable) {
+		this.nameTable = nameTable;
+		cardEnCour = new ArrayList();
+		cardEnAttente = new ArrayList();
+		cardTermine = new ArrayList();
+		
+	}
+	
+	@Id
+	@GeneratedValue
+	public Long getIdKanban() {
+		return idKanban;
+	}
+	public void setIdKanban(Long idKanban) {
+		this.idKanban = idKanban;
+	}
+	
+	public String getNameTable() {
+		return nameTable;
+	}
+	public void setNameTable(String nameTable) {
+		this.nameTable = nameTable;
+	}
+	
+	@OneToMany(cascade = CascadeType.PERSIST)
+	@JoinColumn(name = "kanbanencourid")
+	public Collection<Card> getCardEnCour() {
+		return cardEnCour;
+	}
+	public void setCardEnCour(Card c){
+		cardEnCour.add(c);
+	}
+	
+	@OneToMany(cascade = CascadeType.PERSIST)
+	@JoinColumn(name = "kanbanterminerid")
+	public Collection<Card> getCardEnAttente() {
+		return cardEnAttente;
+	}
+	public void setCardEnAttente(Card c){
+		cardEnAttente.add(c);
+	}
+	
+	@OneToMany(cascade = CascadeType.PERSIST)
+	@JoinColumn(name = "kanbanenattenteid")
+	public Collection<Card> getCardTermine() {
+		return cardTermine;
+	}
+	public void setCardTermine(Card c){
+		cardTermine.add(c);
+	}
+}

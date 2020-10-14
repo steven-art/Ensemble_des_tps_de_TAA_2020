@@ -1,5 +1,0 @@
-package sample.data.jpa.service;
-
-public class CardDao {
-
-}
