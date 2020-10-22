@@ -3,6 +3,7 @@ package sample.data.jpa.web;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
@@ -29,7 +30,8 @@ public class UserController {
     }
     return "User succesfully created with id = " + userId;
   }
-  
+
+
   /**
    * GET /delete  --> Delete the user having the passed id.
    */
@@ -68,11 +70,11 @@ public class UserController {
    * GET /update  --> Update the email and the name for the user in the 
    * database having the passed id.
    */
-  @RequestMapping("/update")
+  @PutMapping("/update")
   @ResponseBody
   public String updateUser(long id, String email, String name) {
     try {
-      User user = userDao.findById(id).get();
+      User user = userDao.findById(id);
       user.setEmail(email);
       user.setName(name);
       userDao.save(user);

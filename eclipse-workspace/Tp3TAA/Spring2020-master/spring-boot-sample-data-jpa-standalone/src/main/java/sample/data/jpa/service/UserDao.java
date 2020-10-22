@@ -24,5 +24,7 @@ public interface UserDao extends JpaRepository<User, Long> {
   // le as u est présent pour crée l'alias
   @Query("select u from User as u where u.name =name ")
   public User findByUser(String name);
+  
+  public User findById(long id);
 
 }

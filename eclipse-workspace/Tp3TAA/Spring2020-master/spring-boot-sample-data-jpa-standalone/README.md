@@ -61,3 +61,6 @@ http://localhost:8080/card/delete?id=1
 6- afficher une carte:  
 http://localhost:8080/card/get-by-libelle/card1
 
+7-modifier un user:
+http://localhost:8080/update?id=1&email=test1@domain.com&name=Test2
+
