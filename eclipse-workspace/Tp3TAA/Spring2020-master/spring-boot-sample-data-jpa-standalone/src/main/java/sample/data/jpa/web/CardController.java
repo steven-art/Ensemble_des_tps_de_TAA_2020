@@ -3,6 +3,7 @@ package sample.data.jpa.web;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
@@ -64,7 +65,26 @@ public class CardController {
 		}
 		return "User succesfully deleted!";
 	}
-
+	  /**
+	   * GET /update  --> Update the email and the name for the user in the 
+	   * database having the passed id.
+	   */
+	  @PutMapping("/card/update")
+	  @ResponseBody
+	  public String updateCard(long idcard,String libelle,String url, String note) {
+	    try {
+	      Card card = cardDao.findByIdCard(idcard);
+	      card.setLibelle(libelle);
+	      card.setUrl(url);
+	      card.setNote(note);
+	      cardDao.save(card);
+	    }
+	    catch (Exception ex) {
+	      return "Error updating the user: " + ex.toString();
+	    }
+	    return "User succesfully updated!";
+	  }
+	  
 
 	// Private fields
 

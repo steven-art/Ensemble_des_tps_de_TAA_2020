@@ -31,4 +31,6 @@ public interface CardDao extends JpaRepository<Card, Long> {
 	 */
 	@Query("select c from Card as c where c.tag=:libelle")
 	public Card showAllTag(@Param("libelle") String libelle);
+	
+	public Card findByIdCard(long idCard);
 }
